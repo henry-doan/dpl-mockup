@@ -2,8 +2,7 @@ import React from 'react';
 
 const App = ({ children }) => (
   <div>
-    <div className="container">
-        
+    {/* <div className="container">      
 	    <div className="card card-block">
 	        <p className="card-text">Bootsrap-flex has the option of auto layout - columns share equally the available space in a row unless a specific size is assigned.</p>
 	    </div>
@@ -26,10 +25,9 @@ const App = ({ children }) => (
 	        <div className="col-xs">.col-xs</div>
 	    </div>
 
-		</div>
+		</div> */}
     { children }
   </div>
 )
 
 export default App;
-
