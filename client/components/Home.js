@@ -1,8 +1,13 @@
 import React from 'react';
+import Navbar from './partials/Navbar';
+import Footer from './partials/Footer';
 
 const Home = () => (
   <div>
-    Home Page
+  	<Navbar />
+	    Home Page
+    <Footer />
+
   </div>
 );
 
