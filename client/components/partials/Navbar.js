@@ -21,13 +21,12 @@ const Navbar = () => {
       <ul className='col-md-6'>
         <li style={styles.liLinks} className="dropdown">
           <Link to="/courses" className='navbar-btn dropdown-btn'>Courses</Link>
+          <div className="dropdown-content">
+            <a href='#'>Full Time</a>
+            <a href='#'>Part Time</a>
+            <a href='#'>UX Design</a>
+          </div>
         </li>
-
-        <div className="dropdown-content">
-          <a href='#'>Rails</a>
-          <a href='#'>Rails</a>
-          <a href='#'>Rails</a>
-        </div>
 
         <li style={styles.liLinks}>
           <Link to="/courses" className='navbar-btn'>About</Link>
@@ -38,7 +37,7 @@ const Navbar = () => {
       </ul>
       <ul className='col-md-1'>
         <li style={styles.liLinks}>
-          <a className='navbar-apply right'>Apply</a>
+          <a href='/' className='navbar-apply right'>Apply</a>
         </li>
       </ul>
     </div>
